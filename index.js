@@ -1,3 +1,6 @@
+const prompt = require('prompt-sync');
+const entrada = prompt();
+
 const { arrayBuffer } = require("stream/consumers");
 
 const nomeCompleto = "Felipe lemos freitas";
@@ -29,7 +32,9 @@ console.log(listaDeViagens);
 listaDeViagens.splice(1,1);
 console.log(listaDeViagens);
 
-const idadeComprador = 24;
+var nomeComprador = entrada("qual é seu nome? ");
+
+var idadeComprador = entrada("qual é a sua idade?");
 
 if(idadeComprador < 18){
   console.log("Infelizmente você não pode comprar se for menor de idade, as nossas passagens")
