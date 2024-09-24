@@ -37,8 +37,10 @@ var nomeComprador = entrada("qual é seu nome? ");
 var idadeComprador = entrada("qual é a sua idade?");
 
 if(idadeComprador < 18){
-  console.log("Infelizmente você não pode comprar se for menor de idade, as nossas passagens")
+
+  console.log(`olá ${nomeComprador} ,se o senhor tiver acima de 18 anos poderá comprar o bilhete${idadeComprador} `);
+  
 }
 if(idadeComprador >= 18){
-  console.log("otima noticia você pode comprar o bilhete com 18 ou mais");
+  console.log(`olá senhor (a) ${nomeComprar}, qual será o seu detino, temos várias opções de viagens!');
 }
