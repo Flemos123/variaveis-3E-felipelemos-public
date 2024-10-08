@@ -19,10 +19,10 @@ console.log(`oi eu sou ${nomeCompleto} meu ano é ${anoNascimento} minha idade �
 const loginCerto = "Felipe";
 const senhaCerto = 123;
 
-console.log("-----------------------");
-console.log("--AGÊNCIA DE VIAGENS--");
-console.log("-----------------------");
-console.log("Faça seu login");
+console.log(" -------------------------------------------------------------------------");
+console.log("👉                         🏖️--AGÊNCIA DE VIAGENS--🏖️                   👈");
+console.log("--------------------------------------------------------------------------");
+console.log("⏩Faça seu login⏪");
 
 var login = entrada("digite seu login: ");
 var senha = entrada("digite sua senha: ");
